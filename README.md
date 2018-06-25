@@ -2,4 +2,8 @@ This R Shiny app allows you to visualize a heatmap of district flips. It gives a
 
 To run the app on your own computer, you'll need `shiny`, `leaflet`, `leaflet.extras`, `ggplot2`, `dplyr`, `sf`, `shinythemes`, and `ggthemes`. `extrafont` is optional. 
 
+First, install `pacman` and that will load the rest of them. 
+
+You can run it locally with `shiny::runGithub("chain-heatmap", "gerrymandr")`
+
 The app currently supports Missouri, but extensions are forthcoming. 
