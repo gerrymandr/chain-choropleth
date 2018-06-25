@@ -10,9 +10,9 @@ library(extrafont)
 
 # load data from data/
 
-mo_flips_longlat <- readRDS("~/mggg_work/Flips/data/mo_flips_longlat.RDS")
-cd_2013_mo <- readRDS("~/mggg_work/Flips/data/cd_2013_mo.RDS")
-state_2013_mo <- readRDS("~/mggg_work/Flips/data/state_2013_mo.RDS")
+mo_flips_longlat <- readRDS("data/mo_flips_longlat.RDS")
+cd_2013_mo <- readRDS("data/cd_2013_mo.RDS")
+state_2013_mo <- readRDS("data/state_2013_mo.RDS")
 
 # setting up color palettes for leaflet map
 
