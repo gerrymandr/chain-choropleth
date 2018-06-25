@@ -1,12 +1,4 @@
-library(shiny)
-library(ggplot2)
-library(dplyr)
-library(sf)
-library(leaflet.extras)
-library(leaflet)
-library(shinythemes)
-library(ggthemes)
-library(extrafont)
+pacman::p_load(shiny, ggplot2, dplyr, sf, leaflet.extras, leaflet, shinythemes, ggthemes, extrafont)
 
 # load data from data/
 
